@@ -1,20 +1,21 @@
 {
   "streams": [
     {
-      "title": "asfda",
-      "description": "asfdasdf",
-      "id": 1
-    },
-    {
-      "description": "Stream for Kairis youtube",
-      "title": "Kairi's Stream",
-      "id": 2
-    },
-    {
-      "title": "Andrews STream",
+      "title": "Andrews Stream",
       "description": "This is a test by andrew",
-      "userId": "105138887727947288127",
       "id": 3
+    },
+    {
+      "title": "A newer Stream",
+      "description": "Some random stream",
+      "userId": "105138887727947288127",
+      "id": 4
+    },
+    {
+      "title": "Me streaming component reuse",
+      "description": "refactor a component",
+      "userId": "105138887727947288127",
+      "id": 5
     }
   ]
 }
