@@ -20,9 +20,9 @@ export const createStream = (formValues) => {
       payload: response.data,
     });
 
-    // Do some programmatic navigation 
+    // Do some programmatic navigation
     // to get the user back to the root route.
-    history.push('/');
+    history.push("/");
   };
 };
 export const fetchStreams = () => {
@@ -47,11 +47,11 @@ export const editStream = (id, formValues) => {
   return async (dispatch) => {
     const response = await streams.patch(`/streams/${id}`, formValues);
     dispatch({
-        type: EDIT_STREAM,
-        payload: response.data,
+      type: EDIT_STREAM,
+      payload: response.data,
     });
 
-    history.push('/');
+    history.push("/");
   };
 };
 
@@ -63,6 +63,7 @@ export const deleteStream = (id) => {
       type: DELETE_STREAM,
       payload: id,
     });
+    history.push("/");
   };
 };
 
